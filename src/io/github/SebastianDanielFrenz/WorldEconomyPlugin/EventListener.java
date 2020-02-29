@@ -225,7 +225,7 @@ public class EventListener implements Listener {
 					}
 				}
 			} else if (block.getType() == MachineKategory.CRAFTING.display
-					|| block.getType() == MachineKategory.PROCESSING.display
+					|| block.getType() == MachineKategory.FORGING.display
 					|| block.getType() == MachineKategory.SMELTING.display) {
 				if (Machine.canBeMachine(block.getType())) {
 					Machine machine = Machine.getMachine(block);

@@ -4,7 +4,7 @@ import org.bukkit.Material;
 
 public enum MachineKategory {
 
-	CRAFTING(Material.CRAFTING_TABLE), SMELTING(Material.FURNACE), PROCESSING(Material.ANVIL);
+	CRAFTING(Material.CRAFTING_TABLE), SMELTING(Material.FURNACE), FORGING(Material.ANVIL);
 
 	private MachineKategory(Material display) {
 		this.display = display;

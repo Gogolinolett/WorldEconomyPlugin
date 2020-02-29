@@ -39,7 +39,7 @@ public abstract class Machine {
 
 	public static boolean canBeMachine(Material material) {
 		return material == MachineKategory.CRAFTING.display || material == MachineKategory.SMELTING.display
-				|| material == MachineKategory.PROCESSING.display;
+				|| material == MachineKategory.FORGING.display;
 	}
 
 	public static int getMachineLevel(Block block) {
